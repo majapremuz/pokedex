@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(241, 145, 145);
+}
+
+:root {
+    font-size: min(max(7rem, calc(7rem + ((1vw - 8rem) * 1.25))), 2rem);
+    min-height: 0vw;
+  }
+
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P";
+    color: yellow;
+    -webkit-text-stroke: 0.1rem blue;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.pkm-card {
+    height: 7.5rem;
+    width: 7rem;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pkm-card:hover {
+   transform: scale(1.1);
+   box-shadow: 1px 2px 15px 4px #000000;
+}
+
+.pkm-images {
+    height: 60%;
+    width: 60%;
+}
+
+.type {
+    font-size: 0.5rem;
+}
